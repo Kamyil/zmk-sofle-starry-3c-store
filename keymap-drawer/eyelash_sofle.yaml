@@ -1,6 +1,6 @@
 layers:
   LAYER0:
-  - CALC
+  - RGB TOG
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -26,7 +26,7 @@ layers:
   - O
   - P
   - '~'
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-esc$$
   - Z
   - X
   - C
@@ -53,7 +53,7 @@ layers:
   - {t: /, s: '?'}
   - '"'
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -87,8 +87,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - (
   - )
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -98,9 +98,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - '{'
-  - '}'
-  - {t: '''', s: '"'}
+  - {t: '-', s: _}
+  - +
+  - {t: '=', s: +}
   - '"'
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: ']', s: '}'}
@@ -111,7 +111,7 @@ layers:
   - RGB EFR
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - +
+  - _
   - {t: '-', s: _}
   - {t: '=', s: +}
   - F11
