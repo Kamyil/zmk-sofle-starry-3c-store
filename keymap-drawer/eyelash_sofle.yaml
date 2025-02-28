@@ -98,10 +98,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - +
-  - {t: '=', s: +}
-  - '"'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
