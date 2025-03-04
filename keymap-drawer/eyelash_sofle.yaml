@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - Gui+Sft+5
-  - Gui+Sft+4
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - layer1
@@ -62,7 +62,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '-', s: _}
+  - RIGHT GUI
   - {t: '=', s: +}
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
